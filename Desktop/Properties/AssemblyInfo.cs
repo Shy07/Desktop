@@ -6,7 +6,7 @@ using System.Runtime.InteropServices;
 // 特性集控制。更改这些特性值可修改
 // 与程序集关联的信息。
 [assembly: AssemblyTitle("Desktop")]
-[assembly: AssemblyDescription("An assistant who makes your Windows 8 or 8.1 desktop more clean")]
+[assembly: AssemblyDescription("An assistant who helps your Windows 8 or 8.1 desktop more clean.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Lynch Sherry")]
 [assembly: AssemblyProduct("Desktop")]
