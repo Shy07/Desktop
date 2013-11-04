@@ -57,7 +57,7 @@
             this.toolStripMenuItem1,
             this.ExitToolStripMenuItem});
             this.notifyMenu.Name = "notifyMenu";
-            this.notifyMenu.Size = new System.Drawing.Size(249, 120);
+            this.notifyMenu.Size = new System.Drawing.Size(249, 98);
             // 
             // emptyRecycleBinToolStripMenuItem
             // 
@@ -97,10 +97,13 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 261);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
+            this.Opacity = 0D;
             this.ShowInTaskbar = false;
             this.Text = "Form1";
             this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.notifyMenu.ResumeLayout(false);
             this.ResumeLayout(false);
 

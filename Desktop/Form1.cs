@@ -50,6 +50,11 @@ namespace Desktop
             taskbarTransparency = true;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            base.SetVisibleCore(false);
+        }
+
         private void notifyIcon1_MouseClick(object sender, MouseEventArgs e)
         {
             if (e.Button == System.Windows.Forms.MouseButtons.Left)
